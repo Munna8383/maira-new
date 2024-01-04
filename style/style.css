@@ -8,7 +8,7 @@
 }
   
 body{
-    background-image: linear-gradient(to right, rgb(55, 0, 255) , yellow);
+    background-image: linear-gradient(to right, rgb(255, 0, 204) , rgb(255, 0, 21));
 
 }
 .head{
@@ -34,11 +34,14 @@ body{
     width: 350px;
     height: 200px;
     border:10px solid coral;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(248, 237, 237) ;
    
 }
 .sports1 div{
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
 }
 .sports1 p{
     text-align: justify;
