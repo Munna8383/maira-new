@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+  
+body{
+    background-image: linear-gradient(to right, rgb(55, 0, 255) , yellow);
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    letter-spacing: 1px;
+
+}
+.ul1 li{
+    list-style-type: none;
+    float: left;
+    padding-right: 15px;
+    
+
+}
+.sports1{
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+.sports1 img{
+    width: 350px;
+    height: 200px;
+    border:10px solid coral;
+   
+}
+.sports1 div{
+    padding: 10px;
+    margin: 10px;
+}
+.sports1 p{
+    text-align: justify;
+}
